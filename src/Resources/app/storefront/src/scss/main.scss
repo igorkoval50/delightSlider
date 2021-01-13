@@ -67,9 +67,14 @@
         background: #EB6807;
         border-radius: 0;
         color: #090909;
+        margin-left: 156px;
+        margin-top: 85px;
     }
 }
 .cms-block-slider-image-text {
+    .col-12 {
+        padding: 0;
+    }
     .delight-container-block {
         width: 100%;
         height: 738px;
