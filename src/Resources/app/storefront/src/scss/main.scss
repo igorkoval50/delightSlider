@@ -51,6 +51,7 @@
     top: 165px;
     left: 131px;
     width: 280px;
+    text-align: left;
     h2 {
         font-size: 28px;
         line-height: 38px;
@@ -68,3 +69,44 @@
         color: #090909;
     }
 }
+.cms-block-slider-image-text {
+    .delight-container-block {
+        width: 100%;
+        height: 738px;
+    }
+    .swiper-pagination {
+        z-index: 10;
+    }
+
+    .swiper-container-vertical>.swiper-pagination-bullets {
+        right: 123px;
+        .swiper-pagination-bullet {
+            background: transparent;
+            opacity: 1;
+            width: 38px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            height: 14px;
+            position: relative;
+            border-radius: 0;
+            border-top: 1px solid #d9dadb;
+            .bull-text {
+                position: absolute;
+                right: -25px;
+                font-size: 13px;
+                color: #D9DADB;
+                top: -13px;
+            }
+        }
+        .swiper-pagination-bullet-active {
+            background: transparent;
+            border-top: 1px solid #EB6807;
+            opacity: 1;
+            .bull-text {
+                color: #EB6807;
+            }
+        }
+    }
+}
+
