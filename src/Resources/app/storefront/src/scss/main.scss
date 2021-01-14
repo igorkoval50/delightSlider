@@ -20,8 +20,8 @@
 }
 .content-slider-center {
     position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
+    transform: translate(-50%, 0);
+    top: 0%;
     left: 50%;
     text-align: center;
     h3 {
@@ -114,6 +114,14 @@
             .bull-text {
                 color: #EB6807;
             }
+        }
+    }
+    .svg-image {
+        height: 469px;
+        margin-bottom: 10px;
+        svg {
+            width: 100% !important;
+            height: 100% !important;
         }
     }
 }
